@@ -17,3 +17,6 @@ __Introduction__
 __Dataset__  
 MVTec bottle image set  
 
+__Auto-encoder structure__  
+
+
