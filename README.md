@@ -46,4 +46,4 @@ FINN v0.7
 TUL PYNQ-Z2 development board
 
 __Procedure__  
-put the notebook with the block directory at same work space, then use ./run-docker.sh notebook to open the notebook where is located in Autoencoder directory.
+Put the notebook with the block directory together to the (path to FINN installed)/notebooks, then use ./run-docker.sh notebook to open the notebook where is located.
