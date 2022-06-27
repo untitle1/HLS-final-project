@@ -23,7 +23,7 @@ __Auto-encoder structure__
 ![image](https://user-images.githubusercontent.com/102477116/175839677-e02ee008-b107-4fa9-a72e-42415934c72f.png)  
 
 __Current Result__  
-Due to some activate function and data type that not support on Brevitas:  
+Due to some activate function and data type that is not supported on Brevitas:  
 1.QuantTanh  2.QuantConvTranspose2d  3.QuantSigmoid  4.QuantType.FP  
 and on FINN:  
 1.QuantUpsample  2.QuantTanh  3.QuantSigmoid  
