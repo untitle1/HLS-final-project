@@ -30,7 +30,7 @@ and on FINN:
 So our work now use a method that turns around, Apply linear structure but use ReLu to do as Sigmoid  
 ![image](https://user-images.githubusercontent.com/102477116/175840233-0a886761-cd2a-4eed-89f1-11de19f79f8e.png)  
 to==>![image](https://user-images.githubusercontent.com/102477116/175840239-9db92f29-e69f-424c-a45b-fb5633e6afe2.png)  
-Currently, we stuck at ZynqBuild() step,  
+Currently, we stuck at ZynqBuild() step as follow,  
 ![image](https://user-images.githubusercontent.com/102477116/175840387-8f8ddb6f-047a-4fb8-9119-ca8208c53e69.png)
 
 
@@ -44,3 +44,6 @@ PyTorch >= 1.5.0
 Brevitas >= v0.7.0  
 FINN v0.7  
 TUL PYNQ-Z2 development board
+
+__Procedure__  
+put the notebook with the block directory at same work space, then use ./run-docker.sh notebook to open the notebook where is located in Autoencoder directory.
