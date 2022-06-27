@@ -20,7 +20,7 @@ __Auto-encoder structure__
 
 ![image](https://user-images.githubusercontent.com/102477116/175839660-c52c2e70-da2d-4754-94d3-c66d218d0aa3.png)
 
-![image](https://user-images.githubusercontent.com/102477116/175839677-e02ee008-b107-4fa9-a72e-42415934c72f.png)
+![image](https://user-images.githubusercontent.com/102477116/175839677-e02ee008-b107-4fa9-a72e-42415934c72f.png)  
 
 __Current Result__  
 Due to some activate function and data type that not support on Brevitas:  
@@ -29,11 +29,9 @@ and on FINN:
 1.QuantUpsample  2.QuantTanh  3.QuantSigmoid  
 So our work now use a method that turns around, Apply linear structure but use ReLu to do as Sigmoid  
 ![image](https://user-images.githubusercontent.com/102477116/175840233-0a886761-cd2a-4eed-89f1-11de19f79f8e.png)  
-to==>![image](https://user-images.githubusercontent.com/102477116/175840239-9db92f29-e69f-424c-a45b-fb5633e6afe2.png)
-
-
-
-  
+to==>![image](https://user-images.githubusercontent.com/102477116/175840239-9db92f29-e69f-424c-a45b-fb5633e6afe2.png)  
+Currently, we stuck at ZynqBuild() step,  
+![image](https://user-images.githubusercontent.com/102477116/175840387-8f8ddb6f-047a-4fb8-9119-ca8208c53e69.png)
 
 
 
